@@ -1,0 +1,8 @@
+Origin: Anh Đạt JB Repo
+Label: Anh Đạt
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Repo Jailbreak
