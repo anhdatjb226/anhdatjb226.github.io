@@ -118,4 +118,20 @@ SHA1: 326ff1ff310df58f9824a9ace09576ee2c7b8c97
 SHA256: 2f08203f916a54a04cc2c2f49892b944c22de903ae5bf7e1d86c55b639c4e4b5
 SHA512: 812f49ce4da5288aedb1361600a7785a3c6b16aba45e23ca70768b0ab9b05039016b2e5ca6c6d145ccfe9a90f40972a33f53f631ba547f2e937f794c95bac0f2
 
-
+Architecture: iphoneos-arm
+Depends: firmware (>= 13.0)
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/51/installer.html
+Description: Installer 5.1 beta. Fastest Package Manager for iOS.
+Icon: https://synnygr.dev/AppTapp/icon51.png
+Maintainer: Anh Đạt
+Name: Installer
+Package: com.anhdat.installer
+Section: Packaging
+Version: 5.1-85
+Size: 11857
+Filename: ./deb/Installer.deb
+MD5sum: 843e291f0b58e1ded1d7b779d352bf1d
+SHA1: eb8ff1c314f95c552cbab61979e9f848c587ed7a
+SHA256: e23dc3e7502f25e01fdedb6e8796777eb0004146c40ee15b11baea73c51c3b1a
+SHA512: cfe1220a84fae71b18af80ce311b2c513443af59a23e86a5501edcd5f8ecfbbdc9509f61b6a60c948f3c21929f3d25022941c7167174006acc55e536c62df3a1
