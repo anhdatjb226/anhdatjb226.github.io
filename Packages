@@ -96,3 +96,26 @@ MD5sum: 30cfa894c4c011e66fe06e63d04437c8
 SHA1: 43496edad306221da9c9c9721416abeeca3175ea
 SHA256: 13b8803e376df1eda15338768090df8cd756013d7d616e61749fcf065786c3c3
 SHA512: ea2f9faea002e3474074264a05135918f4a26042f9b38aa59b654898011ccd77b7c5a48fd6eba96fd414e4da8e69b0844c40b9f716ba4580b07ab3e415c41fd1
+
+Package: com.anhdat.zebra
+Name: Zebra
+Architecture: iphoneos-arm
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: Trình quản lí gói hữu dụng cho iPhone, iPad
+Maintainer: Anh Đạt
+Author: Zebra Team <team@getzbra.com>
+Section: Packaging
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+Tag: compatible::9.0-15.7
+Version: 1.1.30
+Installed-Size: 12584
+Size: 7581
+Filename: ./deb/Zebra1130.deb
+MD5sum: 7b8d0f9a461f3bbbd261ccb40f0e8d0d
+SHA1: 326ff1ff310df58f9824a9ace09576ee2c7b8c97
+SHA256: 2f08203f916a54a04cc2c2f49892b944c22de903ae5bf7e1d86c55b639c4e4b5
+SHA512: 812f49ce4da5288aedb1361600a7785a3c6b16aba45e23ca70768b0ab9b05039016b2e5ca6c6d145ccfe9a90f40972a33f53f631ba547f2e937f794c95bac0f2
+
+
