@@ -3,9 +3,14 @@ Name: Sileo
 Version: 2.4.4
 Author: Amy While <me@anamy.gay>
 Maintainer: Anh Đạt
-Description: A modern APT package manager frontend
+Description: Trình quản lí gói hiện đại thay thế Cydia
 Architecture: iphoneos-arm
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
 Section: Packaging
 Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+Filename: ./deb/Sileo244.deb
+Size: 2578
+MD5sum: dba01403b20b56503fe414fe91c3beab
+SHA1: 770da45e1573efcc8669133342f8cde6ad73398c
+SHA256: a23139afdf8da26ad2faec36fe4ba7bf15fb776157ee211cfd0854365362651c
