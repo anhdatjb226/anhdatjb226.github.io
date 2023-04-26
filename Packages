@@ -14,3 +14,22 @@ Size: 2578
 MD5sum: dba01403b20b56503fe414fe91c3beab
 SHA1: 770da45e1573efcc8669133342f8cde6ad73398c
 SHA256: a23139afdf8da26ad2faec36fe4ba7bf15fb776157ee211cfd0854365362651c
+
+Package: com.anhdat.filza
+Name: Filza File Manager
+Depends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Description: Trình quản lí file cho iPhone, iPad
+Maintainer: Anh Đạt
+Author: TIGI Software
+Section: Utilities
+Architecture: iphoneos-arm
+Version: 4.0.1-2
+Installed-Size: 34948
+Size: 13929
+Filename: ./deb/Filza4012.deb
+MD5sum: c68a629c82d46f5a49ec8c93b750bb92
+SHA1: 677bae75af27ed30af0934048c439565498a1908
+SHA256: 3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9
+SHA512: 527066c37324d08338104cf476b345b85034118d7cb34d711bcbd48f6ef06ebe9d3008adc68d8f68eb1e666100afce2e8562c3cf77bc3e26547e90b8ade8b3a7
+
