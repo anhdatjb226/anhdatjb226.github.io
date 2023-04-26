@@ -50,3 +50,24 @@ MD5sum: f7d33ec0b35a3398401d5755165a4298
 SHA1: d34724796db536b91a6f1ed242088f0bfaeb1995
 SHA256: 1a20cd1ca85ac0f5d7069d548438b4efa82ecce5d7bd640b3a7f07af1f5faca0
 SHA512: 9d74aa518772684c1396d5bb00210bac7c499a3fcc24486198644e92d72b04b43fce76ce587ae79dc5861f9d19a3e10b6be550fa5f9115e41b4b4f4a19ba30e4
+
+Package: com.anhdat.xenhtml
+Name: Xen HTML
+Version: 2.0.2~release
+Description: Chạy Widget trên màn hình chính và màn hình khóa
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox, com.rpetrich.rocketbootstrap
+Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml, com.junesiphone.xeninfo, com.modmyi.widgetweather3, com.matchstic.infostats2, com.matchstic.infostats
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+Maintainer: Anh Đạt
+Depiction: https://xenpublic.incendo.ws/depictions/com.matchstic.xenhtml.html
+SileoDepiction: https://xenpublic.incendo.ws/sileo/com.matchstic.xenhtml.json
+Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/IconPackageManager.png
+Size: 4426
+Filename: ./deb/XenHTML.deb
+MD5sum: 78e5c3b58e153f908664486e3883dd7d
+SHA1: 72df6da1e69ec49a62e4a502d0b5319fb9c4ae2d
+SHA256: 7536e6678be0eff88ec12de6855e55ed511672ba0f88f2ec563f0fa1bea8ffbd
+SHA512: ef331ee8da05b6ebb74c83a4462ae6d6c3a3277fad4001e491a847b2e8dddcffa266f5c33a9a1832a94e2a60047bcc3aa4cb08b992c5027b01bc80883cbc6d91
