@@ -71,3 +71,28 @@ MD5sum: 78e5c3b58e153f908664486e3883dd7d
 SHA1: 72df6da1e69ec49a62e4a502d0b5319fb9c4ae2d
 SHA256: 7536e6678be0eff88ec12de6855e55ed511672ba0f88f2ec563f0fa1bea8ffbd
 SHA512: ef331ee8da05b6ebb74c83a4462ae6d6c3a3277fad4001e491a847b2e8dddcffa266f5c33a9a1832a94e2a60047bcc3aa4cb08b992c5027b01bc80883cbc6d91
+
+Package: com.anhdat.cydia
+Priority: required
+Section: Packaging
+Maintainer: Anh Đạt
+Architecture: iphoneos-arm
+Version: 1.1.36
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Provides: bigbossbetarepo, cydia-sources
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, cydia::essential, role::enduser
+Installed-Size: 6472
+Size: 1260
+Filename: ./deb/Cydia.deb
+MD5sum: 30cfa894c4c011e66fe06e63d04437c8
+SHA1: 43496edad306221da9c9c9721416abeeca3175ea
+SHA256: 13b8803e376df1eda15338768090df8cd756013d7d616e61749fcf065786c3c3
+SHA512: ea2f9faea002e3474074264a05135918f4a26042f9b38aa59b654898011ccd77b7c5a48fd6eba96fd414e4da8e69b0844c40b9f716ba4580b07ab3e415c41fd1
